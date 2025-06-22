@@ -15,7 +15,7 @@ pip3 install cryptography
 2. Clone the Repository
 ```
 git clone https://github.com/ediop3SquadALT/ATL-protocol.git  
-cd atl-protocol
+cd ATL-protocol
 ```
 4. Run the Protocol
 Server Mode (Listener)
