@@ -21,7 +21,7 @@ cd atl-protocol
 Server Mode (Listener)
 ```
 python3 atl_protocol.py  
-Listens on UDP port 21358.
+Listens on UDP port 5699 
 ```
 
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     
     def send_test_data():
         time.sleep(2)
-        target_addr = ('TARGET_IP', 21358)  # Replace with target IP
+        target_addr = ('TARGET_IP', 5699)  # Replace with target IP
         atl.send(target_addr, b"Hello from Linux!")
     
     threading.Thread(target=send_test_data, daemon=True).start()
