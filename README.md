@@ -21,7 +21,7 @@ cd ATL-protocol
 Server Mode (Listener)
 ```
 python3 atl_protocol.py  
-Listens on UDP port 5699 
+Listens on port 5699 
 ```
 
 
